@@ -15,3 +15,8 @@ metal 플러그인 설치
 pip install tensorflow-metal
 ```
 
+___
+## anaconda 가상환경 제거
+```
+conda env remove -n '가상환경 이름'
+```
