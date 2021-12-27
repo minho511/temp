@@ -9,6 +9,7 @@ conda install -c apple tensorflow-deps
 tensroflow 설치
 ```
 pip install tensorflow
+# python -m pip install tensorflow-macos
 ```
 metal 플러그인 설치
 ```
