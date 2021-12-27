@@ -20,3 +20,8 @@ ___
 ```
 conda env remove -n '가상환경 이름'
 ```
+___
+## pip 업데이트
+```
+pip install --upgrade pip
+```
