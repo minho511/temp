@@ -30,3 +30,11 @@ pip install --upgrade pip
 
 ___
 https://paperswithcode.com/ 
+__
+## jupyter notebook 실행오류
+> ImportError: cannot import name 'constants' from partially initialized module 'zmq.backend.cython' (most likely due to a circular import) (C:\Users\minho\anaconda3\envs\kaggle\lib\site-packages\zmq\backend\cython\__init__.py)
+- 해결
+  ```
+  pip uninstall pyzmq
+  pip install pyzmq
+  ```
