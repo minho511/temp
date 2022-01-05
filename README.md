@@ -38,3 +38,9 @@ __
   pip uninstall pyzmq
   pip install pyzmq
   ```
+___
+## tensorflow gpu 사용확인
+```python
+from tensorflow.python.client import device_lib
+device_lib.list_local_devices()
+```
